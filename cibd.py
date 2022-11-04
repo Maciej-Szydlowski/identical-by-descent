@@ -23,7 +23,7 @@ import itertools
 #in a set of individuals, the shared fragments (of IBD2 type) are first
 #detected in all pairwise comparisons using KING (version 2.2.7).
 
-#You need to have BEDTOOLS installed on your computer.
+#You need to have BEDTOOLS installed on your linux computer.
 #https://bedtools.readthedocs.io/en/latest/
 
 #Before using the algorithm, please run KING (version 2.2.7). 
