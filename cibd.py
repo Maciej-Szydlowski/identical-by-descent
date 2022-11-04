@@ -66,7 +66,7 @@ def getSEG( infile, outfile, sample1, sample2, ibdtype ):
         for line in fin :
             line = line.strip() 
             (FID1, ID1, FID2, ID2, IBDType, Chr, StartMB, StopMB, StartSNP, StopSNP, N_SNP, Length ) = line.split( '\t' )
-            if IBDType == ibdtype or ibdtype == 'ANY' :
+            if IBDType == ibdtype :
                 start = int( float(StartMB) * 1000000 )
                 stop  = int( float(StopMB ) * 1000000 )
                 if( (ID1==sample1 and ID2==sample2) or (ID1==sample2 and ID2==sample1) ) :
