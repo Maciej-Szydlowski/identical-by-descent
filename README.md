@@ -2,7 +2,8 @@ This script finds the most common chromosomal segments
 shared identical-by-descent (IBD). It was used to find common 
 segments for the paper by Szydlowski: 'A clue to the etiology of
 disorders of sex development from identity-by-descent analysis
-in dogs with cryptic relatedness' published in Animal Genetics.
+in dogs with cryptic relatedness' published in Animal Genetics 
+(https://doi.org/10.1111/age.13276).
 
 To search for most common chromosomal segment (of IBD2 type:
 both alleles shared identical-by-descent), the algorithm
